@@ -1,0 +1,504 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+/* Button style */
+
+.button{
+    border: none;
+    padding: 1rem;
+    border-radius: 30px;
+    background: linear-gradient(to right, white,#0067a0);
+    font-weight: bold;
+    width: 50%;
+    font-size: 1rem;
+}
+
+.padding2{
+    padding: 2rem;
+}
+
+.heading3{
+    font-size: 2rem;
+    color: #666666;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+header h1 span{
+    color: #0067a0;
+    margin: 2vh 0;
+}
+
+header .sub-menu{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .sub-menu img{
+    height: 1rem;
+}
+
+header .sub-menu span{
+    margin-top: 2vh;
+}
+
+header Ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 50%;
+    margin-top: 2vh;
+}
+
+/* section one css */
+
+.one .left h1{
+    font-size: 2.5rem;
+    color: #666666;
+}
+
+.one .left h3{
+    font-size: 1rem;
+}
+
+.one .left .feature{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 2vh 0;
+
+}
+
+.one .left .feature img{
+    height: 2rem;
+}
+
+.one .left p{
+    margin-left: 1rem;
+    font-size: 0.7rem;
+}
+
+.one .right{
+    position: relative;
+}
+
+.one .right img{
+    width: 100%;
+    height: auto;
+}
+
+.background{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.one .right .background{
+    right: 0;
+    height: 28rem;
+    width: 175%;
+}
+
+
+.one .right .foreground{
+    height: 30rem;
+}
+
+.two .left{
+    position: relative;
+}
+
+.two .left img{
+    height: auto;
+    width: 100%;
+}
+
+.two .left .background{
+    width: 175%;
+    left: 0;
+    height: 28rem;
+}
+
+.two .button{
+    margin-top: 3vh;
+}
+
+/* Section Three */
+
+.three{
+    text-align: center;
+}
+
+.three .offers .offer img{
+    height: auto;
+    width: 20%;
+    margin: auto;
+}
+
+.three .offers .offer{
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.three .offers .offer h6{
+    font-size: 1rem;
+}
+
+/* Section Four CSS */
+
+.four{
+    text-align: center;
+}
+
+.four .foods .food:hover{
+    background: #0067a0;
+    color: white;
+}
+
+.four .foods .food button:hover{
+    background: white;
+}
+
+.four .foods .food{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0;
+    border: 1px solid #666666;
+    border-radius: 16px;
+    padding: 0.8rem;
+}
+
+.four .foods .food img{
+    width: 60%;
+    height: auto;
+}
+
+.four .foods .food .pizza{
+   margin-top: 5vh;
+   width: 90%;
+}
+
+.four .foods .food .info{
+    margin-top: 6.5vh;
+}
+
+.four .foods .food .image{
+    width: 60%;
+    margin-top: 5vh;
+}
+
+.four .foods .food .infos{
+    margin-top: 8vh;
+}
+
+.four .foods .food button{
+    width: 60%;
+}
+
+.four .foods .food span{
+    color: #a8404d;
+}
+
+.four .foods .food .price{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 4vh;
+}
+
+/* Section Five */
+
+footer{
+    height: 60vh;
+}
+
+footer .special-offer{
+    padding: 2rem;
+    text-align: center;
+}
+
+footer .special-offer h4{
+    font-size: 1.5rem;
+}
+
+footer .special-offer .input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .special-offer .input input{
+    padding: 0.8rem;
+    margin-top: 3vh;
+    width: 80%;
+    border-radius: 30px;
+    border: 1px solid #666666;
+}
+
+footer .special-offer .input .footer-button{
+    margin-top: 2vh;
+}
+
+footer .details{
+    background: linear-gradient(to bottom, #BBDEFB, #0067a0);
+    text-align: center;
+}
+
+footer .detail h1{
+    padding-top: 3vh;
+}
+
+footer .details .detail h1 span{
+    color: white;
+}
+
+footer .details .detail h4{
+    color: white;
+}
+
+footer .details .detail{
+    margin: 2vh 0;
+}
+
+footer .details .detail img{
+    height: 2rem;
+}
+
+footer .details .boxes{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+footer .details .detail ul{
+    list-style: none;
+}
+
+/* Media Queries Section */
+
+@media screen and (min-width: 700px){
+    header .sub-menu{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .one .left h1{
+        font-size: 3rem;
+    }
+
+    .one .left h3{
+        font-size: 1.2rem;
+        width: 70%;
+        line-height: 2rem;
+    }
+
+    .one .left button{
+        width: 200px;
+        margin: 4vh 0;
+    }
+
+    .one .left .features{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .one .right .foreground{
+        max-width: 50%;
+        margin-left: 40%;
+    }
+
+    .one .right .background{
+        width: 100%;
+    }
+
+    .two .left .foreground{
+        max-width: 50%;
+        margin-left: 10%;
+    }
+
+    .two .left .background{
+        width: 100%;
+    }
+
+    .three{
+        background: url(./assests/background\ 1.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 55vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .three .offers{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 5vh 0;
+    }
+
+    .four .foods{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    footer .details .boxes{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* Laptops and Other Devices */
+@media screen and (min-width: 1200px){
+    header{
+        display: flex;
+        flex-direction: row;
+        width: 55%;
+        height: 15vh;
+        align-items: center;
+        margin-left: 2rem;
+    }
+
+    .one{
+        display: grid;
+        grid-template-columns: 40% auto;
+        position: relative;
+    }
+
+    .one .left .features{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        position: absolute;
+        width: 60%;
+    }
+
+    .one .right .background{
+        position: absolute;
+        top: -30%;
+        height: auto;
+        width: 100%;
+    }
+
+    .one .right .foreground{
+        height: auto;
+        width: 100%;
+        margin-top: -20vh;
+    }
+
+    .two{
+        display: grid;
+        grid-template-columns: 60% auto;
+        height: 100vh;
+        align-items: center;
+    }
+
+    .two .left .foreground{
+        width: 100%;
+        height: auto;
+        margin-top: -5vh;
+    }
+
+    .two .left .background{
+        width: 100%;
+        height: auto;
+    }
+
+    .three{
+        height: 100vh;
+        background-size: contain;
+    }
+
+    .three .offers{
+        width: 70%;
+        margin: 5vh auto;
+    }
+
+    .four .all-button{
+        width: 30%;
+        align-self: center;
+    }
+
+    .four{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100vh;
+    }
+
+    .four .foods{
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .four .foods .food .pizza{
+        margin-top: 4vh;
+    }
+
+    .four .foods .food .info{
+        margin-top: 8vh;
+    }
+
+    .four .foods .food .image{
+        margin-top: 7vh;
+    }
+
+    .four .foods .food .infos{
+        margin-top: 6.5vh;
+    }
+
+    footer{
+        position: relative;
+        display: grid;
+        margin-top: 20vh;
+    }
+
+    footer .special-offer .input{
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+        align-items: center;
+        margin: auto;
+    }
+
+    footer .special-offer .input input{
+        border: none;
+    }
+
+    footer .special-offer{
+        width: 75%;
+        margin: auto;
+        border: 1px solid #666666;
+        border-radius: 50px;
+        position: absolute;
+        top: -30%;
+        justify-self: center;
+        background: white;
+    }
+
+    footer .details{
+        height: 60vh;
+        display: grid;
+        grid-template-columns: 25% auto;
+        align-items: center;
+    }
+}
