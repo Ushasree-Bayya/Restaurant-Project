@@ -34,4 +34,9 @@ restaurant-website/
 ├── assets/ (images, screenshots)
 └── README.md
 
+## 📌 How to Use
 
+1. Clone the repository:
+```bash
+git clone https://github.com/ushasreebayya/restaurant-website.git
+cd restaurant-website
