@@ -53,15 +53,15 @@ Ushasree Bayya
 
 📝 Acknowledgements
 
-Design inspired by modern restaurant themes and food delivery websites.
+* Design inspired by modern restaurant themes and food delivery websites.
 
-UI/UX ideas taken from popular restaurant websites for better user experience.
+* UI/UX ideas taken from popular restaurant websites for better user experience.
 
-Gradient color choices influenced by modern web design trends.
+* Gradient color choices influenced by modern web design trends.
 
-Special thanks to open-source resources and free images used for food categories.
+* Special thanks to open-source resources and free images used for food categories.
 
-Built with passion to learn and improve frontend development skills.
+* Built with passion to learn and improve frontend development skills.
 
 https://ushasreebayya.github.io/restaurant-website/
 
