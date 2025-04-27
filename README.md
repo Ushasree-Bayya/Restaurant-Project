@@ -49,8 +49,9 @@ Check out the live project here: [Restaurant Website](https://ushasree-bayya.git
 
 ```
 
-##🧑‍💻 Author  
-Ushasree Bayya
+🧑‍💻 Author  
+**Ushasree Bayya**
+
 
 ```
 ##📝 Acknowledgements
