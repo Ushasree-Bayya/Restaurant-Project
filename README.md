@@ -42,23 +42,22 @@ git clone https://github.com/ushasreebayya/restaurant-website.git
 cd restaurant-website
 
 ```
-
-🔗 Live Demo  
+## 🔗 Live Demo
 
 Check out the live project here: [Restaurant Website](https://ushasree-bayya.github.io/Restaurant-Project/)
 
+
 ```
 
-🧑‍💻 Author  
+##🧑‍💻 Author  
 Ushasree Bayya
 
 ```
-📝 Acknowledgements
+##📝 Acknowledgements
 - Design inspired by modern restaurant themes and food delivery websites.
 - UI/UX ideas taken from popular restaurant websites for better user experience.
 - Gradient color choices influenced by modern web design trends.
 - Special thanks to open-source resources and free images used for food categories.
 - Built with passion to learn and improve frontend development skills.
-
 
 
