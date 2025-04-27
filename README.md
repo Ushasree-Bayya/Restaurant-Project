@@ -45,7 +45,7 @@ cd restaurant-website
 
 ```
 🔗 Live Demo  
-Check out the live project here: [Restaurant Website](https://ushasreebayya.github.io/restaurant-website/)
+Check out the live project here: [Restaurant Website](https://ushasree-bayya.github.io/Restaurant-Project/)
 
 ```
 
