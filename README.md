@@ -47,9 +47,11 @@ cd restaurant-website
 🔗 Live Demo  
 Check out the live project here: [Restaurant Website](https://ushasreebayya.github.io/restaurant-website/)
 
+```
 🧑‍💻 Author  
 Ushasree Bayya
 
+```
 📝 Acknowledgements
 - Design inspired by modern restaurant themes and food delivery websites.
 - UI/UX ideas taken from popular restaurant websites for better user experience.
