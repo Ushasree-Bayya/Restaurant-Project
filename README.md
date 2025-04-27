@@ -60,5 +60,5 @@ Ushasree Bayya
 - Special thanks to open-source resources and free images used for food categories.
 - Built with passion to learn and improve frontend development skills.
 
-
+https://ushasree-bayya.github.io/Restaurant-Project/
 
