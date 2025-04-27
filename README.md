@@ -46,14 +46,12 @@ cd restaurant-website
 
 Check out the live project here: [Restaurant Website](https://ushasree-bayya.github.io/Restaurant-Project/)
 
-```
-```
+
 ## 🧑‍💻 **Author**
 
 Ushasree Bayya
 
-```
-```
+
 ## 📝 **Acknowledgements**
 
 - Design inspired by modern restaurant themes and food delivery websites.
