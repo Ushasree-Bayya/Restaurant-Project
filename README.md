@@ -41,10 +41,10 @@ restaurant-website/
 git clone https://github.com/ushasreebayya/restaurant-website.git
 cd restaurant-website
 
-
-
 ```
+
 🔗 Live Demo  
+
 Check out the live project here: [Restaurant Website](https://ushasree-bayya.github.io/Restaurant-Project/)
 
 ```
@@ -60,5 +60,5 @@ Ushasree Bayya
 - Special thanks to open-source resources and free images used for food categories.
 - Built with passion to learn and improve frontend development skills.
 
-https://ushasree-bayya.github.io/Restaurant-Project/
+
 
