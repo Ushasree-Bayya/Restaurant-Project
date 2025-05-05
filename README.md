@@ -44,7 +44,7 @@ cd restaurant-website
 ```
 ## 🔗 Live Demo
 
-Check out the live project here: [Restaurant Website](https://ushasree-bayya.github.io/Restaurant-Project/)
+Check out the live project here: [Restaurant Website](https://incomparable-daffodil-2cf2de.netlify.app)
 
 
 ## 🧑‍💻 **Author**
